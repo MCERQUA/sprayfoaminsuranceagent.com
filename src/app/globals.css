@@ -3,10 +3,9 @@
 @tailwind utilities;
 
 /* ============================================================
-   DAIRY INSURANCE — "Fresh Pasture" Design System
-   Light · corporate · clean · rolling-pasture motif
-   (token NAMES inherited; VALUES remapped: clay=pasture green,
-   sage=stream blue, gold=honey)
+   SPRAY FOAM INSURANCE AGENT — "Desert Clay" Design System
+   Light · corporate · clean · contractor-warm motif
+   (token NAMES inherited; VALUES are terracotta/adobe/brass)
    ============================================================ */
 
 @layer base {

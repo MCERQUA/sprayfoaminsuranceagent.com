@@ -1,12 +1,11 @@
 import type { Config } from "tailwindcss";
 
 /* ============================================================
-   DAIRY INSURANCE — "Fresh Pasture" palette
+   SPRAY FOAM INSURANCE AGENT — "Desert Clay" palette
    Token NAMES are inherited from the shared component architecture;
-   VALUES are remapped to pasture green (primary) / stream blue
-   (secondary) / honey gold (accent).
-   clay = pasture green · sage = stream blue · gold = honey
-   cream = milk paper · sand = soft sage
+   VALUES are warm terracotta/adobe tones fitting a contractor brand.
+   clay = terracotta primary · espresso = dark contractor brown
+   gold = brass accent · cream = warm paper background
    ============================================================ */
 
 const config: Config = {
