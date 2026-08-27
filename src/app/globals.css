@@ -98,7 +98,7 @@
     position: absolute;
     top: 0; left: 0; right: 0;
     height: 6px;
-    background: linear-gradient(90deg, #2F6B3E 0%, #4A8B58 24%, #2E7BB5 58%, #E0A82E 100%);
+    background: linear-gradient(90deg, #2F6B3E 0%, #4A8B58 50%, #E0A82E 100%);
   }
   .pill { @apply inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-heading font-semibold uppercase tracking-wider; }
   .pill-clay { @apply pill bg-clay/10 text-clay border border-clay/20; }
@@ -109,7 +109,7 @@
   .h-section { @apply font-heading font-bold text-3xl md:text-4xl lg:text-5xl text-espresso leading-[1.1]; }
   .lead { @apply text-lg md:text-xl text-mocha leading-relaxed; }
 
-  /* === Decorative motifs — "pasture" (rolling green hills) === */
+  /* === Decorative motifs — soft radial background washes === */
   .bg-sonoran {
     background-color: var(--bg-cream);
     background-image:
@@ -128,11 +128,11 @@
       radial-gradient(ellipse at bottom right, rgba(46, 123, 181, 0.07) 0%, transparent 50%),
       var(--bg-cream);
   }
-  /* Field band — layered rolling hills = pasture horizon */
+  /* Field band — layered background wash */
   .horizon-band {
     background: linear-gradient(180deg,
-      #2F6B3E 0% 18%, #4A8B58 18% 34%, #E0A82E 34% 48%,
-      #4A8B58 48% 62%, #2F6B3E 62% 78%, #2E7BB5 78% 100%);
+      #2F6B3E 0% 23%, #4A8B58 23% 44%, #E0A82E 44% 62%,
+      #4A8B58 62% 80%, #2F6B3E 80% 100%);
   }
   .grain {
     background-image:
@@ -147,7 +147,7 @@
   .arch-divider::after {
     content: ""; position: absolute; inset: 0; margin: auto;
     width: 10rem; height: 1.4rem;
-    background: linear-gradient(90deg, #2F6B3E 0% 18%, #4A8B58 18% 40%, #E0A82E 40% 62%, #2E7BB5 62% 82%, #2F6B3E 82% 100%);
+    background: linear-gradient(90deg, #2F6B3E 0% 22%, #4A8B58 22% 50%, #E0A82E 50% 78%, #2F6B3E 78% 100%);
     border-radius: 0.5rem; opacity: 0.92;
   }
 
@@ -160,7 +160,7 @@
   .prose-warm li::before {
     content: ""; position: absolute; left: 0; top: 0.55em;
     width: 1.1rem; height: 0.5rem;
-    background: linear-gradient(90deg, #2F6B3E 0% 35%, #E0A82E 35% 70%, #2E7BB5 70% 100%);
+    background: linear-gradient(90deg, #2F6B3E 0% 50%, #E0A82E 50% 100%);
     border-radius: 0.15rem 0.5rem 0.15rem 0.5rem; opacity: 0.9;
   }
   .prose-warm strong { @apply text-espresso font-semibold; }
